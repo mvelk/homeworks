@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Matt Velker Recipe</title>
+  </head>
+  <body>
+
+    <header>
+      <img src='https://d3c5s1hmka2e2b.cloudfront.net/uploads/topic/image/4/appacademy.png'>
+      <nav>
+        <ul>
+          <li><a href='#overview'>Overview</a></li>
+          <li><a href='#ingredients'>Ingredients</a></li>
+          <li><a href='#directions'>Directions</a></li>
+          <li><a href='#reviews'>Reviews</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <h1>Spam Musubi</h1>
+
+    <a name="overview"></a>
+    <h2>How to make one of Hawaii’s most popular snacks</h2>
+    <p>
+      A favorite Hawaiian way to eat Spam is in the form of a musubi (pronounced moo-soo-bee, with no accent).  It is a fried slice of spam on rice pressed together to form a small block, then wrapped with a strip of seaweed.  The Spam musubi is eaten as a sandwich, and it is perhaps the Island’s favorite “to go” or snack food.
+    </p>
+
+    <figure>
+      <img src="http://images.media-allrecipes.com/userphotos/720x405/39977.jpg" alt="spam musubi">
+      <figcaption>And it's as <a href='https://en.wikipedia.org/wiki/Spam_musubi'>good as it looks</a> too!</figcaption>
+    </figure>
+
+      <p>
+        Spam musubi is literally everywhere in Hawaii, including local convenience stores, grocery stores, school cafeterias, and even at the zoo.  Eating a Spam musubi seems to serve as a rite of passage for newcomers anxious to attain “local” status.
+      </p>
+    <aside>
+
+    <a name="ingredients"></a>
+    <h2>Ingredients</h2>
+    
+
+    <ul>
+      <li>3 cups uncooked Japanese medium-grain sushi rice</li>
+      <li>4 cups water</li>
+      <li>5 sheets of roasted-seaweed (Nori)</li>
+      <li>1 (12-ounce) can Spam</li>
+      <li>1/4 cup soy sauce</li>
+      <li>1/4 cup granulated sugar</li>
+      <li>1/4 cup Rice Wine (Mirin)</li>
+      <li>Water</li>
+    </ul>
+    </aside>
+    
+    <section>
+    <a name="directions"></a>
+    <h2>Directions</h2>
+    <ol>
+      <li>Wash rice, stirring with your hand, until water runs clear.  Place rice in a saucepan with water; soak 30 minutes.  Drain rice in colander and transfer to a heavy pot or rice cooker; add 4 cups water.  If you don't have a rice cooker, place rice and water into a large heavy saucepan over medium-high heat; bring just to a boil, reduce heat to low and simmer, covered, for 15 minutes.  Turn off heat and leave pan, covered, for 15 additional minutes.</li>
+      <li>Cut Roasted-Seaweed (Nori) in half width wise.  Place the cut nori in a resealable plastic bag to keep from exposing the nori to air (exposing the nori to air will make it tough and hard to eat).</li>
+      <li>Cut Spam Luncheon Meat into 8 rectangular slices approximately 1/4-inch thick.  In a large ungreased frying pan over medium heat (Spam has plenty of grease to keep it from sticking).  Fry spam slices until brown and slightly crispy.  Remove from heat, drain on paper towels, and set aside.</li>
+      <li>In a small saucepan over high heat, add soy sauce, sugar, and rice wine; bring just to a boil, then remove from heat.  Add fried Spam slices to soy sauce mixture, turning them to coat with the sauce; let spam slices sit in marinade until ready to use.</li>
+      <li>In a small bowl, place some water to use as a sealer for the ends of the nori wrapper; set aside.</li>
+      <li>Using a Spam Musubi Press:  Place a piece of the cut nori on a plate.  Position press on top of the nori so the length of the press is in the middle of the nori (widthwise).  The press and the width of the nori should fit exactly the length of a slice of Spam.  (Note: If you do not have a musubi maker, you can use the empty Spam can by opening both sides, creating a musubi mold.)  Spread approximately 1/4 cup cooked rice across the bottom of the musubi maker, on top of the nori.  A special kitchen gadget, known as the Spam Musubi Press (see photo below), is responsible for the proliferation of this treat. It is a special plexiglas mold with the outline of a single Spam slice.</li>
+      <li>Press rice down with flat part of the press to compact the rice until it is 1/4-inch thick (add more rice if necessary).  Place a slice of Spam on top of the rice (it should cover most of the length of the musubi maker).</li>
+      <li>Cover with an additional 1/4 cup cooked rice; press until 1/4-inch thick.</li>
+      <li>Remove the musubi from the press by pushing the whole stack down (with the flat part of the press) while lifting off the press.</li>
+      <li>Fold one end of nori over the musubi and press lightly onto the rice.  Wet the remaining end slightly with water, then wrap over musubi and other piece of nori; press down on the other end. cut log into 4 pieces.</li>
+      <li>Repeat with the other seven (7) Spam slices, making sure to rinse off musubi maker after each use to prevent if from getting too sticky.</li>
+      <li>Do not refrigerate musubi, as they will get dry and rubbery.</li>
+      <li>Makes 32 musubi rolls.</li>
+    </ol>
+    </section>
+
+    <section id='reviews'>
+      <h2>Try the recipe? We'd love to get your feedback!</h2>
+      <form action="/reviews" method="post">
+        <label for='GET-name'>Reviewer Name:</label>
+        <input id='GET-name' autocomplete='name' type='text'>
+      <label for='GET-rating'>Rating:</label>
+        1 <input type='radio' name='rating' value='1' checked>
+        2 <input type='radio' name='rating' value='2'>
+        3 <input type='radio' name='rating' value='3'>
+        4 <input type='radio' name='rating' value='4'>
+        5 <input type='radio' name='rating' value='5'>
+
+      <label for='expertise'>Cooking Expertise</label>
+
+      <select id='expertise' name='expertise'>
+        <option value='Select Cooking Expertise' disabled='true' selected='true'>Select Cooking Expertise</option>
+        <option value='Sometimes Cook'>Sometimes Cook</option>
+        <option value='Cook Everyday'>Cook Everyday</option>
+        <option value='Cooking is a Hobby'>Cooking is a Hobby</option>
+        <option value='Professional Chef'>Professional Chef</option>
+      </select>
+
+      <label>Review
+        <textarea name='review' cols='30' rows='10'></textarea>
+      </label>
+        <input type='submit' value='Submit Review'>
+      </form>
+    </section>
+    
+    <footer>Recipe courtesy of <a href="https://whatscookingamerica.net/History/Spam.htm">What's Cooking America</a>.</footer> 
+  </body>
+</html>
